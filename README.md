@@ -5,6 +5,7 @@ This project is an entry into the android developer challenge for on device mach
 
 ![Android Developer Challenge - Cover Letter](doc/Android%20Dev%20Challenge%20-%20Cover%20Letter.pdf)
 
+##### Renewing and buying your license UI mockups
 ![Renew License UI Mockup](demo/demo.gif)
 ![Buy License UI Mockup](demo/demo2.gif)
 
