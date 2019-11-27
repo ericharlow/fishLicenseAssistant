@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Fishing License Assistant.iml" filepath="$PROJECT_DIR$/Fishing License Assistant.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/functionalprototype/functionalprototype.iml" filepath="$PROJECT_DIR$/functionalprototype/functionalprototype.iml" />
+      <module fileurl="file://$PROJECT_DIR$/proofofconcept/proofofconcept.iml" filepath="$PROJECT_DIR$/proofofconcept/proofofconcept.iml" />
     </modules>
   </component>
 </project>

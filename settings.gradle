@@ -1,2 +1,2 @@
-include ':app'
+include ':app', ':proofofconcept', ':functionalprototype'
 rootProject.name='Fishing License Assistant'
