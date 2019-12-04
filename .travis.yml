@@ -8,16 +8,6 @@ android:
     - extras-google-google_play_services
     - sys-img-armeabi-v7a-google_apis-25
 
-before_script:
-  - android list target
-  - echo no | android create avd --force -n test -t 1 --abi google_apis/armeabi-v7a
-  - emulator -avd test -no-audio -no-window &
-  - android-wait-for-emulator
-  - adb shell input keyevent 82 &
-
 script:
   - echo "Travis branch is $TRAVIS_BRANCH"
-  - ./gradlew app:connectedAndroidTest
-
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - ./gradlew app:build
