@@ -13,7 +13,9 @@ It will ask to see your previous fishing license if you are renewing or your dri
 Then the app will attempt to fill out the needed info to complete the transaction for you.
 If any additional info is needed, the app will ask a few additional questions to gather more information and try again.
 
-### Renewing and buying your license UI mockups
+### Renewing your license UI mockup
 ![Renew License UI Mockup](demo/demo.gif)
+
+### Purchasing your license UI mockup
 ![Buy License UI Mockup](demo/demo2.gif)
 
