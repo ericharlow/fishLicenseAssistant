@@ -1,0 +1,29 @@
+language: android
+
+env:
+  matrix:
+    - ANDROID_TARGET=android-22 ANDROID_ABI=armeabi-v7a
+
+android:
+  components:
+    - build-tools-22.0.1
+    - android-23
+    - extra-android-m2repository
+
+    - android-22
+    - sys-img-${ANDROID_ABI}-${ANDROID_TARGET}
+
+before_script:
+  - echo no | android create avd --force -n test -t $ANDROID_TARGET --abi $ANDROID_ABI
+  - emulator -avd test -no-skin -no-audio -no-window &
+  - android-wait-for-emulator
+  - sleep 10
+  - adb shell input keyevent 82 &
+
+script:
+  - echo "Travis branch is $TRAVIS_BRANCH"
+  - echo "Travis branch is in pull request $TRAVIS_PULL+REQUEST"
+  - ./gradlew app:connectedAndroidTest
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
