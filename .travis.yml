@@ -20,4 +20,4 @@ android:
 
 script:
   - echo "Travis branch is $TRAVIS_BRANCH"
-  - ./gradlew app:build app:test
+  - ./gradlew app:assemble app:testDebugUnitTest jacocoTestDebugUnitTestReport
