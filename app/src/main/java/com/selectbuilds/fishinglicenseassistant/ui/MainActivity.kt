@@ -1,7 +1,8 @@
-package com.selectbuilds.fishinglicenseassistant
+package com.selectbuilds.fishinglicenseassistant.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.selectbuilds.fishinglicenseassistant.R
 
 class MainActivity : AppCompatActivity() {
 

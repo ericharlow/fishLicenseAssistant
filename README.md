@@ -1,6 +1,5 @@
 # Fishing License Assistant
 [![Build Status](https://travis-ci.org/ericharlow/fishLicenseAssistant.svg?branch=master)](https://travis-ci.org/ericharlow/fishLicenseAssistant)
-[![codecov.io](https://codecov.io/github/ericharlow/fishLicenseAssistant/badge.svg)](https://codecov.io/github/ericharlow/fishLicenseAssistant)
 
 An app to assist you when buying or renewing your fishing license online.
 
