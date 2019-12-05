@@ -20,4 +20,7 @@ android:
 
 script:
   - echo "Travis branch is $TRAVIS_BRANCH"
-  - ./gradlew app:build
+  - ./gradlew app:build app:test
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

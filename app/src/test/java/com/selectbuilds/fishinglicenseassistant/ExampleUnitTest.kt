@@ -1,5 +1,6 @@
 package com.selectbuilds.fishinglicenseassistant
 
+import com.selectbuilds.fishinglicenseassistant.controllers.SampleController
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -12,6 +13,8 @@ import org.junit.Assert.*
 class ExampleUnitTest {
     @Test
     fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+        val sampleController = SampleController()
+        val result = sampleController.addTwoPlusTwo()
+        assertEquals(4, result)
     }
 }
