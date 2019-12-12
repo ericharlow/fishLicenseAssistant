@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:chipMinHeight="45dp"
+    app:chipStartPadding="10dp"
+    app:chipEndPadding="10dp"
+    style="@style/Widget.MaterialComponents.Chip.Choice"
+    tools:text="Montana">
+
+</com.google.android.material.chip.Chip>

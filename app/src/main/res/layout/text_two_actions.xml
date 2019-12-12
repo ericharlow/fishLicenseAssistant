@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="?attr/materialCardViewStyle">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/CardViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/card_view_padding_top"
+        android:paddingBottom="@dimen/card_view_padding_bottom"
+        android:paddingStart="@dimen/card_edge_spacing"
+        android:paddingEnd="@dimen/card_edge_spacing"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/CardText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_edge_spacing"
+            style="?attr/textAppearanceHeadline4"
+            tools:text="TextView" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Action1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_edge_spacing"
+            android:layout_gravity="center_horizontal"
+            style="?attr/materialButtonStyle"
+            tools:text="action 1"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/Action2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_edge_spacing"
+            android:layout_gravity="center_horizontal"
+            style="?attr/materialButtonStyle"
+            tools:text="action 2"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</com.google.android.material.card.MaterialCardView>

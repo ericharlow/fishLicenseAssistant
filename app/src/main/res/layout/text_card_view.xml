@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/CardView">
+
+    <TextView
+        android:id="@+id/CardText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/card_edge_spacing"
+        style="?attr/textAppearanceHeadline4"
+        tools:text="Sample Text"/>
+
+</com.google.android.material.card.MaterialCardView>

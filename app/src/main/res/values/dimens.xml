@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="card_spacing_height">8dp</dimen>
+    <dimen name="card_edge_spacing">8dp</dimen>
+    <dimen name="card_view_padding_top">8dp</dimen>
+    <dimen name="card_view_padding_bottom">16dp</dimen>
+    <dimen name="webview_height">400dp</dimen>
+</resources>
